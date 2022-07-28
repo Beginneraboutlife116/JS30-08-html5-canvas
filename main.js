@@ -1,3 +1,4 @@
+import "./style.css"
 import { canvas, ctx, clock } from "./src/js/variables"
 import Sprite from "./src/js/classes/Sprite"
 import Fighter from "./src/js/classes/Fighter"
