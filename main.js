@@ -1,4 +1,3 @@
-import "./style.css"
 import { canvas, ctx, clock } from "./src/js/variables"
 import Sprite from "./src/js/classes/Sprite"
 import Fighter from "./src/js/classes/Fighter"
@@ -9,6 +8,7 @@ import {
   determineWinner,
   modifyPressStyle
 } from "./src/js/utilities"
+import images from "./src/js/image.js"
 
 //* background
 const background = new Sprite({
@@ -16,14 +16,14 @@ const background = new Sprite({
     x: 0,
     y: 0
   },
-  imgSrc: "./src/img/background.png"
+  imgSrc: images.background
 })
 const shop = new Sprite({
   position: {
     x: 620,
     y: 127
   },
-  imgSrc: "./src/img/shop.png",
+  imgSrc: images.shop,
   scale: 2.75,
   maxFrames: 6
 })
@@ -51,7 +51,7 @@ const player1 = new Fighter({
     attackValue: 20
   },
   health: 100,
-  imgSrc: "./src/img/samuraiMack/Idle.png",
+  imgSrc: images.samuraiMack.idle,
   maxFrames: 8,
   scale: 2.5,
   offset: {
@@ -60,32 +60,32 @@ const player1 = new Fighter({
   },
   sprites: {
     idle: {
-      imgSrc: "./src/img/samuraiMack/Idle.png",
+      imgSrc: images.samuraiMack.idle,
       maxFrames: 8
     },
     run: {
-      imgSrc: "./src/img/samuraiMack/Run.png",
+      imgSrc: images.samuraiMack.run,
       maxFrames: 8
     },
     jump: {
-      imgSrc: "./src/img/samuraiMack/Jump.png",
+      imgSrc: images.samuraiMack.jump,
       maxFrames: 2
     },
     fall: {
-      imgSrc: "./src/img/samuraiMack/Fall.png",
+      imgSrc: images.samuraiMack.fall,
       maxFrames: 2
     },
     attack1: {
-      imgSrc: "./src/img/samuraiMack/Attack1.png",
+      imgSrc: images.samuraiMack.attack,
       maxFrames: 6,
       attack1AttackingFrame: 4
     },
     takeHit: {
-      imgSrc: "./src/img/samuraiMack/Take Hit - white silhouette.png",
+      imgSrc: images.samuraiMack.takeHit,
       maxFrames: 4
     },
     death: {
-      imgSrc: "./src/img/samuraiMack/Death.png",
+      imgSrc: images.samuraiMack.death,
       maxFrames: 6
     }
   },
@@ -120,7 +120,7 @@ const player2 = new Fighter({
     attackValue: 10
   },
   health: 100,
-  imgSrc: "./src/img/kenji/Idle.png",
+  imgSrc: images.kenji.idle,
   maxFrames: 4,
   scale: 2.5,
   offset: {
@@ -129,32 +129,32 @@ const player2 = new Fighter({
   },
   sprites: {
     idle: {
-      imgSrc: "./src/img/kenji/Idle.png",
+      imgSrc: images.kenji.idle,
       maxFrames: 4
     },
     run: {
-      imgSrc: "./src/img/kenji/Run.png",
+      imgSrc: images.kenji.run,
       maxFrames: 8
     },
     jump: {
-      imgSrc: "./src/img/kenji/Jump.png",
+      imgSrc: images.kenji.jump,
       maxFrames: 2
     },
     fall: {
-      imgSrc: "./src/img/kenji/Fall.png",
+      imgSrc: images.kenji.fall,
       maxFrames: 2
     },
     attack1: {
-      imgSrc: "./src/img/kenji/Attack1.png",
+      imgSrc: images.kenji.attack,
       maxFrames: 4,
       attack1AttackingFrame: 2
     },
     takeHit: {
-      imgSrc: "./src/img/kenji/Take hit.png",
+      imgSrc: images.kenji.takeHit,
       maxFrames: 3
     },
     death: {
-      imgSrc: "./src/img/kenji/Death.png",
+      imgSrc: images.kenji.death,
       maxFrames: 7
     }
   },
