@@ -9,9 +9,7 @@
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
+    - [Useful resources & Acknowledgments](#useful-resources-&-acknowledgments)
 
 ## Overview
 
@@ -26,20 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![screenshot](./src/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Beginneraboutlife116/JS30-08-html5-canvas)
+- [Live Site URL](https://beginneraboutlife116.github.io/JS30-08-html5-canvas/)
 
 ## My process
 
@@ -49,60 +39,34 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- a11y-dialog
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Although this canvas game idea was from a [youtube](https://www.youtube.com/watch?v=vyqbNFMDRGQ), made by [Chris Courses](https://www.youtube.com/c/ChrisCourses), I  still learned how to use html5 canvas and how to change the frame to make characters or view switching.
 
-To see how you can add code snippets, see below:
+There are lots of method and properties could be used:
+- `Window.requestAnimationFrame()`
+- `CanvasRenderingContext2D.drawImage()`
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
+In this practice, except the keyboard decorations, all of the things showing on the canvas are made by canvas methods.
+- Like character life value.
+- The got damage animation.
+- The clock, and counting.
+- 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would try to make a fighting game by myself, and the topic would may be alpaca, because I could use [this idea](https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8) to make choosing character view.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+And also it will be a SPA created by React, I believed.
 
-### Useful resources
+There are few features, like:
+1. User could change the keyboard setting, it means that would have a setting page.
+2. User could choose the favorite alpaca character, and even save it, it means that I need to record the use info to maintain the character style.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+### Useful resources & Acknowledgments
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- [JavaScript Fighting Game Tutorial with HTML Canvas](https://www.youtube.com/watch?v=vyqbNFMDRGQ) - This helped me for understanding how to build a canvas fighting game from zero to finish.
+- [Oak Woods — Environment Asset 🍂](https://brullov.itch.io/oak-woods) - These are the resources of the background, shop, kenji, samuraiMack img. You could support this!!
+- MDN for canvas.
+- The refresh button is referred to Kevin Powell's youtube: [Create borders with cut corners | fully responsive CSS and easy to adapt](https://www.youtube.com/watch?v=aW6qEAQSctY&t=228s)
