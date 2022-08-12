@@ -1,4 +1,4 @@
-# Topic - title
+# Fun with html5 canvas - fighting game
 
 ## Table of contents
   - [Overview](#overview)
@@ -13,15 +13,16 @@
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
 
 Users should be able to:
 
-- (Like writing user story)
+- press the corresponding key to move character.
+- press the corresponding key to attack other character.
+- press the corresponding key to jump.
+- refresh the game via click the return button when any character die, or when the time is running out.
 
 ### Screenshot
 
